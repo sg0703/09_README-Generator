@@ -1,12 +1,6 @@
 // TODO: Include packages needed for this application
-
-/**  split up questions into functions, use when for questions that require multiple responses 
- * first set of questions are those that only require simple anwers/responses
- * the following need their own functions: 
- * 1. usage
- * 2. screen shots for usage
- * 3. installation
- * **/
+var inquirer = require('inquirer');
+var markdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -43,18 +37,13 @@ const questions = [
     {
         type: 'list', 
         message: 'Which license are you using?',
-        choices: ['MIT','Apache','GNU GPLv3'],
+        choices: ['MIT','Apache','GPL'],
         name: 'license'
     },
     {
         type: 'input', 
         message: 'GitHub username: ',
         name: 'github_user'
-    },
-    {
-        type: 'input', 
-        message: 'GitHub repo link: ',
-        name: 'github_link'
     },
     {
         type: 'input', 
@@ -70,11 +59,11 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    var inquirer = require('inquirer');
     inquirer
       .prompt(questions)
       .then(answers => {
-        console.log(answers);
+        // console.log(answers);
+        console.log(markdown.generateMarkdown(answers));
       })
       .catch(error => {
         console.log('There was an error!');
