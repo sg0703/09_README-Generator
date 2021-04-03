@@ -48,9 +48,9 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## Description
-  
   ![License badge](${renderLicenseBadge(data.license)})
+  
+  ## Description
 
   ${data.description}
 
@@ -88,9 +88,9 @@ function generateMarkdown(data) {
   ## Questions
   
   [${data.github_user} GitHub Profile](https://github.com/${data.github_user})
+  
   Email with questions! You can reach me at ${data.email}
   `;
 }
 
 module.exports = {generateMarkdown};
-
