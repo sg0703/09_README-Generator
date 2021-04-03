@@ -8,32 +8,38 @@ const questions = [
     {
         type: 'input',
         message: 'What is the title of your project?',
-        name: 'title'
+        name: 'title',
+        default: 'Project Title'
     },
     {
         type: 'input',
         message: 'Provide a short description of your project (motivation, why did you build it, what problem does it solve, what did you learn?)',
-        name: 'description'
+        name: 'description',
+        default: 'Project Description'
     },
     {
         type: 'input',
         message: 'How do you install the project?',
-        name: 'install'
+        name: 'install',
+        default: 'Installation Instructions'
     },
     {
         type: 'input', 
-        message: 'Describe how to use the app, and add screenshots (1-3) to assets/images using format screen1.png',
-        name: 'usage_instructions'
+        message: 'Describe how to use the app, then upload screenshots (assets/images/screen[1-3].png)',
+        name: 'usage_instructions',
+        default: 'Usage Instructions'
     },
     {
         type: 'input', 
         message: 'What are the contribution guidelines for this app?',
-        name: 'contrib'
+        name: 'contrib',
+        default: 'How to contribute'
     },
     {
         type: 'input', 
         message: 'How do you test the app?',
-        name: 'test'
+        name: 'test',
+        default: 'How to test'
     },
     {
         type: 'list', 
@@ -44,12 +50,14 @@ const questions = [
     {
         type: 'input', 
         message: 'GitHub username: ',
-        name: 'github_user'
+        name: 'github_user',
+        default: 'sg0703'
     },
     {
         type: 'input', 
         message: 'What is your email address for this project?',
-        name: 'email'
+        name: 'email',
+        default: 'sam.j.gates@gmail.com'
     }
 ];
 
@@ -66,7 +74,7 @@ function init() {
     inquirer
       .prompt(questions)
       .then(answers => {
-        writeToFile('README2.md',answers);
+        writeToFile('README.md',answers);
       })
       .catch(error => {
         console.log('There was an error!');

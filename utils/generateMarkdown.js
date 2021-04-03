@@ -40,9 +40,9 @@ function renderLicenseSection(license) {
     return '';
   }
   else {
-    return `
-    Copyright (c) Sam Gates. All rights reserved. 
-    Licensed under the [${license}](${renderLicenseLink(license)}) license.`;
+  return `
+  Copyright (c) Sam Gates. All rights reserved. 
+  Licensed under the [${license}](${renderLicenseLink(license)}) license.`;
   }
 }
 
@@ -92,9 +92,9 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  [GitHub Profile](https://github.com/${data.github_user}) (${data.github_user})
+  Check out my [GitHub Profile](https://github.com/${data.github_user}).
   
-  Email with questions! You can reach me at ${data.email}
+  Email with questions! You can reach me at ${data.email}.
   `;
 }
 

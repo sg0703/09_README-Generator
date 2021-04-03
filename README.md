@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ![License badge](https://img.shields.io/badge/license-MIT-green)
+  ![License badge](https://img.shields.io/badge/license-Apache-blue)
   
   ## Description
 
@@ -39,11 +39,11 @@
   ## License
   
   Copyright (c) Sam Gates. All rights reserved. 
-  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  Licensed under the [Apache](https://www.apache.org/licenses/LICENSE-2.0.txt) license.
   
   ## Questions
   
-  [GitHub Profile](https://github.com/sg0703) (sg0703)
+  Check out my [GitHub Profile](https://github.com/sg0703).
   
-  Email with questions! You can reach me at sam.j.gates@gmail.com
+  Email with questions! You can reach me at sam.j.gates@gmail.com.
   
