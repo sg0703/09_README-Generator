@@ -24,9 +24,9 @@
 
   You initialize the project by using the command "node index" from the root directory. You then enter details of your project, including title, description, license, etc. Once the prompts are complete, the app will generate a README.md file that you can deploy immediately!
   
-  ![Screenshot 1](assets/images/screenshot1.png)
-  ![Screenshot 2](assets/images/screenshot2.png)
-  ![Screenshot 3](assets/images/screenshot3.png)
+  ![Screenshot 1](assets/images/screen1.png)
+  ![Screenshot 2](assets/images/screen2.png)
+  ![Screenshot 3](assets/images/screen3.png)
   
   ## Contribute
 

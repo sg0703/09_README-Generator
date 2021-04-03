@@ -74,9 +74,9 @@ function generateMarkdown(data) {
 
   ${data.usage_instructions}
   
-  ![Screenshot 1](assets/images/screenshot1.png)
-  ![Screenshot 2](assets/images/screenshot2.png)
-  ![Screenshot 3](assets/images/screenshot3.png)
+  ![Screenshot 1](assets/images/screen1.png)
+  ![Screenshot 2](assets/images/screen2.png)
+  ![Screenshot 3](assets/images/screen3.png)
   
   ## Contribute
 

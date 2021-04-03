@@ -71,6 +71,8 @@ function writeToFile(fileName, data) {
 
 // Gather user input, then call writeToFile to generate README
 function init() {
+    console.log('Welcome to the README Generator! Answer the following prompts, and a file named README.md will be generated in the same director as index.js. Make sure you have backed up previous README files. Refer to the README for this project for more information.');
+
     inquirer
       .prompt(questions)
       .then(answers => {
