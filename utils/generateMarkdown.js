@@ -61,8 +61,10 @@ function generateMarkdown(data) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contribute](#contribute)
+  - [Test](#test)
   - [License](#license)
+  - [Questions](#questions)
   
   ## Installation
 
@@ -76,7 +78,7 @@ function generateMarkdown(data) {
   ![Screenshot 2](assets/images/screenshot2.png)
   ![Screenshot 3](assets/images/screenshot3.png)
   
-  ## How to Contribute
+  ## Contribute
 
   ${data.contrib}
   
@@ -90,7 +92,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  [${data.github_user} GitHub Profile](https://github.com/${data.github_user})
+  [GitHub Profile](https://github.com/${data.github_user}) (${data.github_user})
   
   Email with questions! You can reach me at ${data.email}
   `;
