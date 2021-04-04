@@ -46,4 +46,7 @@
   Check out my [GitHub Profile](https://github.com/sg0703).
   
   Email with questions! You can reach me at sam.j.gates@gmail.com.
-  
+
+  ## Video Demonstration
+
+  Please view the video demonstration for this project [here](https://drive.google.com/file/d/1t5yvcADH1uyJ5h8HTm3fmRZbldSSG9Jg/view). The sample README generated in the video can be viewed in this repo under the filename README-Demo.md. The content above was all generated using the app. 
